@@ -60,7 +60,13 @@ The SVG Logo Generator is a Node.js command-line application that leverages the 
 
 ## Walkthrough Video
 
-To help you get started, we've provided a walkthrough video that demonstrates how to use the SVG Logo Generator. You can find the video [here](link-to-walkthrough-video).
+To help you get started, we've provided a walkthrough video that demonstrates how to use the SVG Logo Generator. 
+
+
+
+https://github.com/k-pineda/SVG_Logo_Maker/assets/128410226/3f49e1a9-f548-497e-a462-2d00cff22086
+
+
 
 Feel free to experiment with different text, colors, and shapes to create unique logos for your projects!
 
