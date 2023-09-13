@@ -1,0 +1,8 @@
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+      <g fill="#F38181">KLP</g>
+      <g fill="#95E1D3"><circle cx="100" cy="100" r="50" /></g>
+      <circle cx="100" cy="100" r="50" fill="#95E1D3"/>
+      <text x="85" y="105" fill="#F38181" font-weight="bold">KLP</text>
+    </svg>
+    
