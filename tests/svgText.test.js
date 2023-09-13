@@ -1,4 +1,4 @@
-const Header = require('../lib/header.js');
+const svgText = require('../lib/header.js');
 const { formatDate } = require('../lib/date.js');
 
 describe('Header', () => {
