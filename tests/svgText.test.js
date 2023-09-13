@@ -1,15 +1,11 @@
-const svgText = require('../lib/header.js');
-const { formatDate } = require('../lib/date.js');
+const SvgText = require('../lib/svgText');
 
-describe('Header', () => {
-  test('should render header with the date', () => {
-    const expectedHtml = [
-      '<header class="header">',
-      '<h1>Todo Today</h1>',
-      `<p>${formatDate(new Date())}</p>`,
-      '</header>',
-    ].join('');
-    const header = new Header();
-    expect(header.render()).toEqual(expectedHtml);
-  });
+test('SvgText.render() should render SVG text with fill color', () => {
+  const text = 'Hello, World!';
+  const color = 'red';
+
+  const result = SvgText.render(text, color);
+
+  expect(result).toMatch(`<text x="10" y="50">${text}</text>`);
+  expect(result).toMatch(`<g fill="${color}">`);
 });
