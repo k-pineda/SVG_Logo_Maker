@@ -1,4 +1,4 @@
-const ShapeList = require('../lib/shapeList');
+const ShapeList = require('../lib/shapeList ');
 
 test('ShapeList.render() should render SVG shape based on input', () => {
   const circle = ShapeList.render('circle');

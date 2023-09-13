@@ -1,7 +1,7 @@
 const SvgText = require('../lib/svgText');
 
 test('SvgText.render() should render SVG text with fill color', () => {
-  const text = 'Hello, World!';
+  const text = 'HIP';
   const color = 'red';
 
   const result = SvgText.render(text, color);
